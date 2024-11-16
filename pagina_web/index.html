@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lading Page</title>
+    <link rel="stylesheet" href="../pagina_web/style.css">
+
+</head>
+<body>
+    <!--  Navbar  -->
+    <header>
+        <nav class="navbar">
+            <div class="logo">SITIO</div>
+            <button class="toggle-btn" onclick="toggleMenu()">☰</button>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#home">Inicio</a></li>
+                <li><a href="#about">Acerca de</a></li>
+                <li><a href="#services">servicios</a></li>
+                <li><a href="#contact">contacto</a></li>
+                
+            </ul>
+
+        </nav>
+
+    </header>
+
+    <!--  landing page or section -->
+    <section class="landing">
+        <img src="rick.jpg" alt="imagen">
+        <h1> bienvenidos a nuestro sitio</h1>
+        <p> Pueden explorar nuestros servicios y descubre mas.</p>
+
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Praesentium consectetur aut earum minima sapiente enim quae, incidunt sunt at illo ad voluptatibus suscipit! Esse, facilis tempora quas sed voluptatum voluptatem.</p>
+
+
+
+    </section>
+
+    <!--  footer -->
+    <footer>
+
+        <p> &copy; 2024 mi sitio . Todos los derechos reservados.</p>
+    </footer>
+
+    <script>
+        
+
+
+        
+        function toggleMenu(){
+            const navLinks = document.getElementById('navLinks');
+
+            if (navLinks){
+                navLinks.classList.toggle('active');
+            }else{
+                console.error('no se encontro id navLinks');
+            }
+
+            // navLinks=classList.toggle('active')
+
+
+        }
+    </script>
+
+</body>
+</html>

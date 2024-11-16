@@ -1,0 +1,101 @@
+*{
+
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+body {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #c210af; /* color principal*/
+
+    
+
+}
+
+.form-container {
+    background-color: #f6f1f1;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0,0,0,0.2);
+    max-width: 400px;
+    width: 100%;
+}
+
+.contact-form h1{
+    text-align: center;
+    color :black;
+    margin-bottom: 10px ;
+
+
+}
+
+.contact-form p{
+
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.contact-form label{
+    display: block;
+    color: #333;
+    margin-bottom: 7px;
+    font-weight: bold;
+
+}
+
+.contact-form input,
+.contact-form textarea{
+
+    width: 100%;
+    padding: 10px;
+    margin-bottom:  15px;
+    border-radius: 6px;
+    border: 1px solid #a04b93;
+    font-size: 16px;
+    color: #333;
+}
+
+.contact-form button{
+
+
+    width: 100%;
+    padding: 10px;
+    background-color: #c624ae;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+
+
+
+}
+
+.contact-form button:hover{
+    
+        background-color: #a04b93;
+}
+
+.contact-form .note{
+
+    text-align: center;
+    font-size: 13px;
+    color: #a04b93;
+}
+
+
+
+
+
+
+
+
